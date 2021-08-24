@@ -1,0 +1,11 @@
+XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
+MVVMC_FOLDER_NAME=MVVMC\ Templates
+MVVMC_TEMPLATES_DIR=Templates/$(MVVMC_FOLDER_NAME)
+
+install_templates:
+	rm -R -f $(XCODE_USER_TEMPLATES_DIR)/$(MVVMC_FOLDER_NAME)
+	mkdir -p $(XCODE_USER_TEMPLATES_DIR)
+	cp -R -f $(MVVMC_TEMPLATES_DIR) $(XCODE_USER_TEMPLATES_DIR)
+
+uninstall_templates:
+	rm -R $(XCODE_USER_TEMPLATES_DIR)/$(MVVMC_FOLDER_NAME)
