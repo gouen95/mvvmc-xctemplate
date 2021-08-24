@@ -14,3 +14,7 @@ To uninstall Xcode template run:
 After that, restart your Xcode if it was already opened.
 
 You can find the templates in MVVMC Section when creating 'New File...'
+
+# Video walkthrough
+https://user-images.githubusercontent.com/21040866/130573629-e4d475bc-3833-44b1-8218-71847f6df605.mov
+
