@@ -27,7 +27,7 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
 // MARK:- Private functions
 private extension ___VARIABLE_moduleName___ViewController {
-    private func bindViewModel() {
+    func bindViewModel() {
 	// Uncomment below to get bind properties from viewModel
 
 //        viewModel.<#T##AnyType#>
