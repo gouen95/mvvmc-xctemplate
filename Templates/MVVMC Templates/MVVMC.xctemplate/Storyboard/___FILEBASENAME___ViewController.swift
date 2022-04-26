@@ -11,13 +11,15 @@ import Combine
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
-    // MARK:- Public properties
+    // MARK: - IBOutlets
+
+    // MARK: - Public properties
     var viewModel: ___VARIABLE_moduleName___ViewModel!
     
-    // MARK:- Private properties
+    // MARK: - Private properties
     private var cancellables: Set<AnyCancellable> = []
 
-    // MARK:- Lifecycle
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +27,7 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
     }
 }
 
-// MARK:- Private functions
+// MARK: - Private functions
 private extension ___VARIABLE_moduleName___ViewController {
     func bindViewModel() {
 	// Uncomment below to get bind properties from viewModel
@@ -39,8 +41,8 @@ private extension ___VARIABLE_moduleName___ViewController {
     }
 }
 
-// MARK:- Public functions
-extension ___VARIABLE_moduleName___ViewController {
+// MARK: - Public functions
+public extension ___VARIABLE_moduleName___ViewController {
     static func fromStoryboard(viewModel: ___VARIABLE_moduleName___ViewModel) -> ___VARIABLE_moduleName___ViewController {
         let selfVc = UIStoryboard(name: "___VARIABLE_moduleName___", bundle: nil).instantiateViewController(identifier: "___VARIABLE_moduleName___ViewController") as! ___VARIABLE_moduleName___ViewController
         

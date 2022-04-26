@@ -11,13 +11,13 @@ import Combine
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
-    // MARK:- Public properties
+    // MARK: - Public properties
     var viewModel: ___VARIABLE_moduleName___ViewModel!
     
-    // MARK:- Private properties
+    // MARK: - Private properties
     private var cancellables: Set<AnyCancellable> = []
 
-    // MARK:- Lifecycle
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,10 +25,8 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
     }
 }
 
-// MARK: - Extensions
+// MARK: - Private functions
 private extension ___VARIABLE_moduleName___ViewController {
-    
-    // MARK:- Private Functions
     func bindViewModel() {
 	// Uncomment below to get bind properties from viewModel
 

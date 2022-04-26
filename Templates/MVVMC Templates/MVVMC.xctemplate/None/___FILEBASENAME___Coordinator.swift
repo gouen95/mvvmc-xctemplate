@@ -10,10 +10,10 @@ import UIKit
 
 final class ___VARIABLE_moduleName___Coordinator {
 
-    // MARK:- Private properties
-    private(set) weak var presenter: UIViewController!
+    // MARK: - Private properties
+    private(set) weak var presenter: UIViewController?
 
-    // MARK:- Module setup
+    // MARK: - Module setup
     init(presenter: UIViewController) {
         self.presenter = presenter
     }
