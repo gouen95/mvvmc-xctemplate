@@ -42,7 +42,7 @@ private extension ___VARIABLE_moduleName___ViewController {
 }
 
 // MARK: - Public functions
-public extension ___VARIABLE_moduleName___ViewController {
+extension ___VARIABLE_moduleName___ViewController {
     static func fromStoryboard(viewModel: ___VARIABLE_moduleName___ViewModel) -> ___VARIABLE_moduleName___ViewController {
         let selfVc = UIStoryboard(name: "___VARIABLE_moduleName___", bundle: nil).instantiateViewController(identifier: "___VARIABLE_moduleName___ViewController") as! ___VARIABLE_moduleName___ViewController
         

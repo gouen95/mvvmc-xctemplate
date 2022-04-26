@@ -12,7 +12,7 @@ final class ___VARIABLE_moduleName___ViewModel: ObservableObject {
 
 //        @Published var value: <#T##AnyType#>
     
-    private(set) let coordinator: ___VARIABLE_moduleName___Coordinator
+    private let coordinator: ___VARIABLE_moduleName___Coordinator
     
     // MARK: - Module setup
     init(coordinator: ___VARIABLE_moduleName___Coordinator) {
