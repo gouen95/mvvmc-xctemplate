@@ -27,7 +27,7 @@ final class ___VARIABLE_moduleName___ViewModel: ObservableObject {
 }
 
 // MARK: - Public functions
-public extension ___VARIABLE_moduleName___ViewModel {
+extension ___VARIABLE_moduleName___ViewModel {
     // func handleSelectImage(image: UIImage) {
     //     self.coordinatorDelegate?.didSelect(image)
     // }
