@@ -10,6 +10,8 @@ import UIKit
 
 final class ___VARIABLE_moduleName___ViewModel: ObservableObject {
 
+    // weak var coordinatorDelegate: ___VARIABLE_moduleName___CoordinatorDelegate?
+
 //        @Published var value: <#T##AnyType#>
     
     // MARK: - Module setup
@@ -22,4 +24,15 @@ final class ___VARIABLE_moduleName___ViewModel: ObservableObject {
         self.dependency = dependencyInjection
     }
     */
+}
+
+// MARK: - Public functions
+public extension ___VARIABLE_moduleName___ViewModel {
+    // func handleSelectImage(image: UIImage) {
+    //     self.coordinatorDelegate?.didSelect(image)
+    // }
+}
+
+protocol ___VARIABLE_moduleName___CoordinatorDelegate: AnyObject {
+    func didSelect(_ image: UIImage)
 }

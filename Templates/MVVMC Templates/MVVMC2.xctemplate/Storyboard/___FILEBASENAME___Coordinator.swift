@@ -18,7 +18,14 @@ final class ___VARIABLE_moduleName___Coordinator: Coordinator {
     
     func start() {
         let viewModel = ___VARIABLE_moduleName___ViewModel()
+        // viewModel.coordinatorDelegate = self
         let viewController = ___VARIABLE_moduleName___ViewController.fromStoryboard(viewModel: viewModel)
         navigationController?.pushViewController(viewController, animated: true)
+    }
+}
+
+extension ___VARIABLE_moduleName___Coordinator: ___VARIABLE_moduleName___CoordinatorDelegate {
+    func didSelect(_ image: UIImage) {
+        // Handle next coordinate
     }
 }
