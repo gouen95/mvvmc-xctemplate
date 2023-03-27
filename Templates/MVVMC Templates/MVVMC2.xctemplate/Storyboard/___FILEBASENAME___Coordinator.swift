@@ -9,10 +9,10 @@
 import UIKit
 
 final class ___VARIABLE_moduleName___Coordinator: Coordinator {
-    private(set) var childCoordinators: [Coordinator] = []
-    private(set) weak var navigationController: UINavigationController?
+    var childCoordinators: [Coordinator] = []
+    weak var navigationController: UINavigationController?
     
-    required init(navigationController: UINavigationController) {
+    required init(navigationController: UINavigationController?) {
         self.navigationController = navigationController
     }
     
