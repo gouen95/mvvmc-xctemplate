@@ -8,11 +8,15 @@
 
 import UIKit
 
+//protocol ___VARIABLE_moduleName___CoordinatorDelegate: AnyObject {
+//    func didSelect(_ image: UIImage)
+//}
+
 final class ___VARIABLE_moduleName___ViewModel: ObservableObject {
 
-    // weak var coordinatorDelegate: ___VARIABLE_moduleName___CoordinatorDelegate?
+//     weak var coordinatorDelegate: MainCoordinatorDelegate?
 
-//        @Published var value: <#T##AnyType#>
+//     @Published var value: <#T##AnyType#>
     
     // MARK: - Module setup
     init() {
@@ -31,8 +35,4 @@ extension ___VARIABLE_moduleName___ViewModel {
     // func handleSelectImage(image: UIImage) {
     //     self.coordinatorDelegate?.didSelect(image)
     // }
-}
-
-protocol ___VARIABLE_moduleName___CoordinatorDelegate: AnyObject {
-    func didSelect(_ image: UIImage)
 }

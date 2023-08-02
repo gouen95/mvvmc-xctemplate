@@ -23,6 +23,10 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
 
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +42,8 @@ private extension ___VARIABLE_moduleName___ViewController {
 
 //        viewModel.<#T##AnyType#>
 //            .receive(on: RunLoop.main)
-//            .sink { [unowned self] (value) in
-//
+//            .sink { [weak self] (value) in
+//                guard let self = self else { return }
 //
 //        }.store(in: &cancellables)
     }
