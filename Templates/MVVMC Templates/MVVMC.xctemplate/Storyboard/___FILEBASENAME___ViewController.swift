@@ -34,8 +34,8 @@ private extension ___VARIABLE_moduleName___ViewController {
 
 //        viewModel.<#T##AnyType#>
 //            .receive(on: RunLoop.main)
-//            .sink { [unowned self] (value) in
-//
+//            .sink { [weak self] (value) in
+//                guard let self = self else { return }
 //
 //        }.store(in: &cancellables)
     }
