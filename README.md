@@ -1,6 +1,9 @@
 # mvvmc-xctemplate
 A template to eliminate the redundancy of creating MVVM or MVVMC file one by one for XCode
 
+<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white"/> <img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white"/>
+[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
+
 # Installation instructions
 
 To install MVVMC Xcode templates, run the following command from root folder:
